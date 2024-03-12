@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">   
+    <title>Agregar Jugador</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"  crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">Panel de Control</h1>
+        <p class="lead">Demo app</p>
+    </div>
+        
+    <a href="index.php" class="btn btn-primary">Inicio</a>
+    <br/><br/>
+
+    <form action="add.php" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" class="form-control" placeholder="Apellido" required>
+        </div>
+
+        <div class="form-group">
+            <label for="tantos_marcados">Tantos Marcados</label>
+            <input type="number" name="tantos_marcados" id="tantos_marcados" class="form-control" placeholder="Tantos Marcados" required>
+        </div>
+
+        <div class="form-group">
+            <label for="puesto">Puesto</label>
+            <input type="number" name="puesto" id="puesto" class="form-control" placeholder="Puesto" required>
+        </div>
+
+        <div class="form-group">
+            <label for="clase">Clase</label>
+            <input type="text" name="clase" id="clase" class="form-control" placeholder="Clase" required>
+        </div>
+
+        <div>
+            <input type="submit" name="inserta" value="Agregar" class="btn btn-primary">
+            <input type="button" value="Cancelar" onclick="location.href='index.php'" class="btn btn-secondary">
+        </div>
+    </form>
+</div>
+</body>
+</html>
