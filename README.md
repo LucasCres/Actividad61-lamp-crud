@@ -1,4 +1,4 @@
-# actividad61-lamp-crud
+# Actividad61-lamp-crud
 
 
 En el proceso de este proyecto, nos embarcamos en el desarrollo de una aplicación CRUD en PHP, alojada en un repositorio específico. La aplicación requiere la presencia de una base de datos meticulosamente diseñada, con una tabla de dimensiones reducidas que facilita la manipulación de registros mediante funciones como edición, eliminación y adición, todas gestionadas por la aplicación.
